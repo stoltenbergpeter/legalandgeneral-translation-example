@@ -1,0 +1,88 @@
+﻿/* This is for the spacing of the empty meta-navigation. */
+.header-options-wrapper {
+    min-height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    header .container.fiveItems .navbar-nav.header-menu .nav-item {
+        /*margin-left: 70px !important;*/
+    }
+
+    header .container.fiveItems .navbar-nav.header-menu .nav-item .header-menu-link {
+        font-size: 20px !important;
+    }
+
+    header .container.sixItems .navbar-nav.header-menu .nav-item {
+        margin-left: 25px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    header .container.fiveItems .navbar-nav.header-menu .nav-item {
+        margin-left: 50px !important;
+    }
+
+    header container.sixItems .navbar-nav.header-menu .nav-item {
+        margin-left: 30px !important;
+    }
+
+    header .container.fiveItems .navbar-nav.header-menu .nav-item .header-menu-link,
+    header .container.sixItems .navbar-nav.header-menu .nav-item .header-menu-link {
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    header .container.fiveItems .navbar-nav.header-menu .nav-item .header-menu-link {
+        font-size: 14px !important;
+    }
+
+    header .container.fiveItems .navbar-nav.header-menu .nav-item,
+    header .container.sixItems .navbar-nav.header-menu .nav-item {
+        margin-left: 10px !important;
+    }
+
+    header .container.sixItems .navbar-nav.header-menu .nav-item .header-menu-link {
+        font-size: 15px !important;
+    }
+
+    header .container.sixItems .header-link {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 767px) {
+    /*header .container.sixItems .logo-wrapper {
+        display: inline-flex !important;
+        height: 78px !important;
+        width: 96px !important;
+        align-items: flex-end !important;
+    }*/
+
+    header .container.fiveItems .logo-wrapper .lng-logo,
+    header .container.sixItems .logo-wrapper .lng-logo {
+        /*height: 50px !important;*/
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 767px) {
+    /*header .container.sixItems .logo-wrapper {
+        display: inline-flex !important;
+        height: 78px !important;
+        width: 96px !important;
+        align-items: flex-end !important;
+    }
+*/
+    header .container.fiveItems .logo-wrapper .lng-logo,
+    header .container.sixItems .logo-wrapper .lng-logo {
+        /*height: 40px !important;*/
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-collapsable {
+        overflow: hidden;
+        float: right;
+        width: 100%;
+    }
+}
